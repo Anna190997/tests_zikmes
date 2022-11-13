@@ -62,6 +62,7 @@ const Form = () => {
             buttonText="ЗАКАЗАТЬ"
             clickFunc={sendRequest}
             icon={faPhone}
+            buttonWrapperClass="wrapper_button"
           />
         </form>
       ) : (
